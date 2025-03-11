@@ -19,15 +19,9 @@ Tento soubor README.md poskytuje podrobný návod, jak nainstalovat, konfigurova
 - [Funkcionalita](#funkcionalita)
 - [Instalace](#instalace)
 - [Použití](#použití)
-  - [Základní příklady](#základní-příklady)
-  - [Konfigurace logování](#konfigurace-logování)
-  - [CLI entry point](#cli-entry-point)
-- [Distribuce a GitHub Pages](#distribuce-a-github-pages)
-- [Testování a Debugging](#testování-a-debugging)
-- [Příspěvky a rozvoj](#příspěvky-a-rozvoj)
+  - [Základní příklady](#zaklad)
+  - [Konfigurace logování](#logging)
 - [Licence](#licence)
-- [Závěr](#závěr)
-
 ## Funkcionalita
 
 Balíček **cns-nanoprometheus-client** nabízí několik modulů:
@@ -86,3 +80,27 @@ from cns_nanoprometheus_client.logging_config import setup_logging
 logger = setup_logging(log_file="custom.log", level=logging.INFO)
 logger.info("Logování je úspěšně nakonfigurováno.")
 ```
+## Licence
+
+MIT License
+
+Copyright (c) [rok] [vaše jméno]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
