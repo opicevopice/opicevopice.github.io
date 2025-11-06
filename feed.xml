@@ -1,1 +1,15 @@
-<![CDATA[rn<script language="Javascript" type="text/javascript">alert ("Got you")</script>rn]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Môj Testovací Feed</title>
+  <description>Feed pre PortSwigger Lab</description>
+  
+  <item>
+    <title>Testovací Produkt</title>
+    <description>
+      <![CDATA[<script language="Javascript" type="text/javascript">alert("Got you")</script>]]>
+    </description>
+  </item>
+
+</channel>
+</rss>
